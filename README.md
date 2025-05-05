@@ -2,6 +2,8 @@
 
 > A bilingual voice-powered AI companion, built using XiaoZhi’s intelligent assistant platform.
 
+[English](README.md) | [Chinese](README_cn.md) | [Japanese](README_ja.md)
+
 ## Overview
 
 **Wally** is a warm, reliable voice assistant in the shape of a penguin, developed as an improved version of the [Penguin Pi reminder assisstant](https://github.com/JLW-7/Penguin-Pi). It is designed to help users with reminders, productivity, daily conversations, and emotional support — all packed into a portable ESP32-based device.
