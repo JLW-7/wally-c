@@ -35,8 +35,6 @@
 3. Choose the network called Xiaozhi on your phone/laptop, and a web page shall pop up. If not, go manually to the address shown on its screen.
 4. Inside the web page, enter your network's details (name and password). You can also choose to remember the network in future use.
 5. Once done, read the below instructions to start using it.
-
-For more detailed instructions check out the video in the demo above.
 ___
 
 ## Getting Started
