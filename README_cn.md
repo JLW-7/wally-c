@@ -2,6 +2,8 @@
 
 > 一款双语语音驱动的 AI 伙伴，基于小智智能助手平台构建。
 
+[English](README.md) | [中文](README_cn.md) | [日本語](README_ja.md)
+
 ## 项目概述
 
 **Wally** 是一个温暖可靠的企鹅形语音助手，是 [Penguin Pi 提醒助手](https://github.com/JLW-7/Penguin-Pi) 的升级版本。它旨在帮助用户进行提醒、提高效率、日常对话以及情感支持，全部集成在一台便携的基于 ESP32 的设备中。

@@ -2,7 +2,7 @@
 
 > A bilingual voice-powered AI companion, built using XiaoZhi’s intelligent assistant platform.
 
-[English](README.md) | [Chinese](README_cn.md) | [Japanese](README_ja.md)
+[English](README.md) | [中文](README_cn.md) | [日本語](README_ja.md)
 
 ## Overview
 
