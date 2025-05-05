@@ -1,148 +1,84 @@
-# シャオジー AI チャットボット
+# Wally
 
-([中文](README.md) | [English](README_en.md) | 日本語)
+> XiaoZhi のインテリジェントアシスタントプラットフォームを使用して構築された、音声対応のバイリンガルAIコンパニオン。
 
-## プロジェクト紹介
+## 概要
 
-👉 [ESP32+SenseVoice+Qwen72Bで AI チャット仲間を作ろう！【bilibili】](https://www.bilibili.com/video/BV11msTenEH3/)
+**Wally** は、信頼できるペンギン型の音声アシスタントであり、[Penguin Pi リマインダーアシスタント](https://github.com/JLW-7/Penguin-Pi) の改良版として開発されました。リマインダー管理、生産性向上、日常会話、そして感情的なサポートなどを目的とし、ESP32ベースのポータブルデバイスにすべてが詰め込まれています。
 
-👉 [シャオジーに DeepSeek のスマートな頭脳を搭載【bilibili】](https://www.bilibili.com/video/BV1GQP6eNEFG/)
+> [!NOTE]
+> Wally は現在プロトタイプ段階であり、まだ購入・一般利用・配布はできません。以下のデモをご覧いただき、最新情報をお待ちください。
 
-👉 [自分だけの AI パートナーを作る、初心者向けガイド【bilibili】](https://www.bilibili.com/video/BV1XnmFYLEJN/)
+---
 
-## プロジェクトの目的
+## 主な機能
 
-このプロジェクトは MIT ライセンスの下で公開されているオープンソースプロジェクトで、商用利用を含め、誰でも自由に使用することができます。
+* **音声起動**：「Hi, Wally」というウェイクワードで起動
+* **バイリンガル音声チャット**：英語と中国語の両方に対応
+* **リアルタイムストリーミング応答**：XiaoZhi バックエンド（Qwen、Deepseekなど）から即時応答
+* **OLED/ディスプレイ表示**：画面上での応答や絵文字によるインタラクション表示
 
-このプロジェクトを通じて、より多くの人々が AI ハードウェア開発を始め、急速に進化している大規模言語モデルを実際のハードウェアデバイスに実装する方法を理解できるようになることを目指しています。AI に興味のある学生でも、新しい技術を探求する開発者でも、このプロジェクトから貴重な学習経験を得ることができます。
+---
 
-プロジェクトの開発と改善には誰でも参加できます。アイデアや提案がありましたら、Issue を立てるかチャットグループにご参加ください。
+## デモ
 
-学習・交流 QQ グループ：376893254
+> 近日公開予定…
 
-## 実装済みの機能
+---
 
-- Wi-Fi / ML307 Cat.1 4G
-- BOOT ボタンによる起動と中断、クリックと長押しの2種類のトリガーに対応
-- オフライン音声起動 [ESP-SR](https://github.com/espressif/esp-sr)
-- ストリーミング音声対話（WebSocket または UDP プロトコル）
-- 5言語対応：標準中国語、広東語、英語、日本語、韓国語 [SenseVoice](https://github.com/FunAudioLLM/SenseVoice)
-- 話者認識、AI の名前を呼んでいる人を識別 [3D Speaker](https://github.com/modelscope/3D-Speaker)
-- 大規模モデル TTS（Volcano Engine または CosyVoice）
-- 大規模言語モデル（Qwen, DeepSeek, Doubao）
-- 設定可能なプロンプトと音声トーン（カスタムキャラクター）
-- 短期記憶、各会話ラウンド後の自己要約
-- OLED / LCD ディスプレイ、信号強度や会話内容を表示
-- LCD での画像表情表示に対応
-- 多言語対応（中国語、英語）
+## ネットワーク設定
 
-## ハードウェア部分
+1. Wally の背面スイッチをオンにして電源を入れます。  
+2. 頭部を本体から取り外し、内部の基板の背面、白いバッテリースタンドの隣にある丸いボタンを見つけます。それと「B」とラベルされたボタンを同時に押します。「ネットワーク設定モードに入ります」と音声で通知されます。  
+3. スマホまたはパソコンで「Xiaozhi」というネットワークを選択します。自動的に設定用のWebページが開きます。開かない場合は、デバイスの画面に表示されているアドレスを手動で入力してください。  
+4. 表示されたWebページで、自宅Wi-FiのSSIDとパスワードを入力します。今後の使用のためにネットワークを記憶することもできます。  
+5. 設定完了後、以下の手順に従って使用を開始してください。
 
-### ブレッドボード DIY 実践
+より詳細な手順については、上記のデモ動画をご参照ください。
 
-Feishu ドキュメントチュートリアルをご覧ください：
+___
 
-👉 [シャオジー AI チャットボット百科事典](https://ccnphfhqs21z.feishu.cn/wiki/F5krwD16viZoF0kKkvDcrZNYnhb?from=from_copylink)
+## 使用開始方法
 
-ブレッドボードのデモ：
+> [!IMPORTANT]
+> ネットワーク設定が完了してから以下の手順を行ってください。
 
-![ブレッドボードデモ](docs/wiring2.jpg)
+1. 「Hi, Wally」と話しかけて起動します。  
+2. Wally との会話を開始してください。  
+3. 「Stop talking」「Go to sleep」「bye」など、終了を意味する言葉を言えば、Wallyはスリープ状態に入ります。
 
-### サポートされているオープンソースハードウェア
+---
 
-- <a href="https://oshwhub.com/li-chuang-kai-fa-ban/li-chuang-shi-zhan-pai-esp32-s3-kai-fa-ban" target="_blank" title="LiChuang ESP32-S3 開発ボード">LiChuang ESP32-S3 開発ボード</a>
-- <a href="https://github.com/espressif/esp-box" target="_blank" title="Espressif ESP32-S3-BOX3">Espressif ESP32-S3-BOX3</a>
-- <a href="https://docs.m5stack.com/zh_CN/core/CoreS3" target="_blank" title="M5Stack CoreS3">M5Stack CoreS3</a>
-- <a href="https://docs.m5stack.com/en/atom/Atomic%20Echo%20Base" target="_blank" title="AtomS3R + Echo Base">AtomS3R + Echo Base</a>
-- <a href="https://docs.m5stack.com/en/core/ATOM%20Matrix" target="_blank" title="AtomMatrix + Echo Base">AtomMatrix + Echo Base</a>
-- <a href="https://gf.bilibili.com/item/detail/1108782064" target="_blank" title="マジックボタン 2.4">マジックボタン 2.4</a>
-- <a href="https://www.waveshare.net/shop/ESP32-S3-Touch-AMOLED-1.8.htm" target="_blank" title="Waveshare ESP32-S3-Touch-AMOLED-1.8">Waveshare ESP32-S3-Touch-AMOLED-1.8</a>
-- <a href="https://github.com/Xinyuan-LilyGO/T-Circle-S3" target="_blank" title="LILYGO T-Circle-S3">LILYGO T-Circle-S3</a>
-- <a href="https://oshwhub.com/tenclass01/xmini_c3" target="_blank" title="XiaGe Mini C3">XiaGe Mini C3</a>
-- <a href="https://oshwhub.com/movecall/moji-xiaozhi-ai-derivative-editi" target="_blank" title="Movecall Moji ESP32S3">Moji シャオジー AI 派生版</a>
-- <a href="https://oshwhub.com/movecall/cuican-ai-pendant-lights-up-y" target="_blank" title="Movecall CuiCan ESP32S3">Cuican AI ペンダント</a>
-- <a href="https://github.com/WMnologo/xingzhi-ai" target="_blank" title="無名科技Nologo-星智-1.54">無名科技Nologo-星智-1.54TFT</a>
-- <a href="https://www.seeedstudio.com/SenseCAP-Watcher-W1-A-p-5979.html" target="_blank" title="SenseCAP Watcher">SenseCAP Watcher</a>
+## 技術概要
 
-<div style="display: flex; justify-content: space-between;">
-  <a href="docs/v1/lichuang-s3.jpg" target="_blank" title="LiChuang ESP32-S3 開発ボード">
-    <img src="docs/v1/lichuang-s3.jpg" width="240" />
-  </a>
-  <a href="docs/v1/espbox3.jpg" target="_blank" title="Espressif ESP32-S3-BOX3">
-    <img src="docs/v1/espbox3.jpg" width="240" />
-  </a>
-  <a href="docs/v1/m5cores3.jpg" target="_blank" title="M5Stack CoreS3">
-    <img src="docs/v1/m5cores3.jpg" width="240" />
-  </a>
-  <a href="docs/v1/atoms3r.jpg" target="_blank" title="AtomS3R + Echo Base">
-    <img src="docs/v1/atoms3r.jpg" width="240" />
-  </a>
-  <a href="docs/v1/magiclick.jpg" target="_blank" title="MagiClick 2.4">
-    <img src="docs/v1/magiclick.jpg" width="240" />
-  </a>
-  <a href="docs/v1/waveshare.jpg" target="_blank" title="Waveshare ESP32-S3-Touch-AMOLED-1.8">
-    <img src="docs/v1/waveshare.jpg" width="240" />
-  </a>
-  <a href="docs/lilygo-t-circle-s3.jpg" target="_blank" title="LILYGO T-Circle-S3">
-    <img src="docs/lilygo-t-circle-s3.jpg" width="240" />
-  </a>
-  <a href="docs/xmini-c3.jpg" target="_blank" title="Xmini C3">
-    <img src="docs/xmini-c3.jpg" width="240" />
-  </a>
-  <a href="docs/v1/movecall-moji-esp32s3.jpg" target="_blank" title="Moji">
-    <img src="docs/v1/movecall-moji-esp32s3.jpg" width="240" />
-  </a>
-  <a href="docs/v1/movecall-cuican-esp32s3.jpg" target="_blank" title="CuiCan">
-    <img src="docs/v1/movecall-cuican-esp32s3.jpg" width="240" />
-  </a>
-  <a href="docs/v1/wmnologo_xingzhi_1.54.jpg" target="_blank" title="無名科技Nologo-星智-1.54">
-    <img src="docs/v1/wmnologo_xingzhi_1.54.jpg" width="240" />
-  </a>
-  <a href="docs/v1/sensecap_watcher.jpg" target="_blank" title="SenseCAP Watcher">
-    <img src="docs/v1/sensecap_watcher.jpg" width="240" />
-  </a>
-</div>
+* **プラットフォーム**：[XiaoZhi](https://github.com/78/xiaozhi-esp32) クラウド + ESP32 ファームウェア  
+* **対応基板**：DFRobot（UNIHiker）に最適。他のボードではソフトウェア・ハードウェアの調整が必要  
+* **バックエンド**：XiaoZhi の LLM 応答システムを使用  
+* **フロントエンド**：小智専用ツールによるファームウェア書き込み  
+* **ウェイクワードエンジン**：ESP-SR によるオフライン音声認識  
+* **音声合成**：Volcano Engine または CosyVoice を使用  
+* **筐体**：Tynkercad で設計し、[Bambu Lab P1](https://bambulab.com/en-us/p1) にて3Dプリント  
 
-## ファームウェア部分
+___
 
-### 開発環境なしのフラッシュ
+## 謝辞
 
-初心者の方は、まず開発環境のセットアップなしでフラッシュできるファームウェアを使用することをお勧めします。
+特別な感謝を：
+- [Xiao Xia](https://github.com/78) とその素晴らしいプロジェクト [XiaoZhi](https://github.com/78/xiaozhi-esp32)  
+- [小智プラットフォーム](https://xiaozhi.me/)
 
-ファームウェアはデフォルトで公式 [xiaozhi.me](https://xiaozhi.me) サーバーに接続します。現在、個人ユーザーはアカウントを登録することで、Qwen リアルタイムモデルを無料で使用できます。
+___
 
-👉 [フラッシュファームウェアガイド（IDF環境なし）](https://ccnphfhqs21z.feishu.cn/wiki/Zpz4wXBtdimBrLk25WdcXzxcnNS)
+## コントリビューション
 
-### 開発環境
+Wally をもっと良くするために、Issue や Pull Request をぜひお寄せください！
 
-- Cursor または VSCode
-- ESP-IDF プラグインをインストール、SDK バージョン 5.3 以上を選択
-- Linux は Windows より好ましい（コンパイルが速く、ドライバーの問題も少ない）
-- Google C++ コードスタイルを使用、コード提出時にはコンプライアンスを確認
+---
 
-### 開発者ドキュメント
+## ライセンス
 
-- [ボードカスタマイズガイド](main/boards/README.md) - シャオジー向けのカスタムボード適応を作成する方法を学ぶ
-- [IoT 制御モジュール](main/iot/README.md) - AI 音声コマンドでIoTデバイスを制御する方法を理解する
+このプロジェクトは [MIT License](LICENSE) のもとでライセンスされています。
 
-## AI エージェント設定
+---
 
-シャオジー AI チャットボットデバイスをお持ちの場合は、[xiaozhi.me](https://xiaozhi.me) コンソールで設定できます。
-
-👉 [バックエンド操作チュートリアル（旧インターフェース）](https://www.bilibili.com/video/BV1jUCUY2EKM/)
-
-## 技術原理とプライベートデプロイメント
-
-👉 [詳細な WebSocket 通信プロトコルドキュメント](docs/websocket.md)
-
-個人のコンピュータでのサーバーデプロイメントについては、同じく MIT ライセンスで公開されている別のプロジェクト [xiaozhi-esp32-server](https://github.com/xinnan-tech/xiaozhi-esp32-server) を参照してください。
-
-## スター履歴
-
-<a href="https://star-history.com/#78/xiaozhi-esp32&Date">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=78/xiaozhi-esp32&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=78/xiaozhi-esp32&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=78/xiaozhi-esp32&type=Date" />
- </picture>
-</a> 
+### このプロジェクトがクールだと思ったら、ぜひ Star をお願いします！
