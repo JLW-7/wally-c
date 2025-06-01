@@ -17,7 +17,7 @@ namespace Lang {{
     constexpr const char* CODE = "{lang_code}";
 
     // 字符串资源
-    namespace Strings {{
+    namespace Strings {{ 
 {strings}
     }}
 
