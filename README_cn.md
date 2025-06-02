@@ -6,7 +6,7 @@
 
 ## 项目概述
 
-**瓦力** 是一个温暖可靠的企鹅形语音助手，是 [Penguin Pi 提醒助手](https://github.com/JLW-7/Penguin-Pi) 的升级版本。它旨在帮助用户进行提醒、提高效率、日常对话以及情感支持，全部集成在一台便携的基于 ESP32 的设备中。
+**Wally** 是一个温暖可靠的企鹅形语音助手，是 [Penguin Pi 提醒助手](https://github.com/JLW-7/Penguin-Pi) 的升级版本。它旨在帮助用户进行提醒、提高效率、日常对话以及情感支持，全部集成在一台便携的基于 ESP32 的设备中。
 
 > [!NOTE]
 > Wally 目前仍处于原型阶段，尚未面向公众销售或使用。欢迎查看下方的演示，敬请期待更新！
@@ -43,9 +43,9 @@ ___
 > [!IMPORTANT]
 > 请确保网络配置完成后再进行以下操作。
 
-1. 说 **“Hi, 瓦力”** 唤醒瓦力。  
-2. 开始与瓦力对话。  
-3. 说任意形式的道别语即可关闭瓦力。  
+1. 说 **“Hi, 瓦力”** 唤醒 Wally。  
+2. 开始与 Wally 对话。  
+3. 说任意形式的道别语即可关闭 Wally。  
 
 ---
 
@@ -64,7 +64,7 @@ ___
 ## 鸣谢
 
 特别感谢：
-- [Xiao Xia](https://github.com/78) 及其出色的项目 [XiaoZhi](https://github.com/78/xiaozhi-esp32)
+- [Xiao Xia](https://github.com/78) 及其项目 [XiaoZhi](https://github.com/78/xiaozhi-esp32)
 - [小智平台](https://xiaozhi.me/)
 
 ___
