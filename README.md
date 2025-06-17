@@ -6,10 +6,10 @@
 
 ## Overview
 
-**Wally** is a warm, reliable voice assistant in the shape of a penguin, developed as an improved version of the [Penguin Pi reminder assisstant](https://github.com/JLW-7/Penguin-Pi). It is designed to help users with reminders, productivity, daily conversations, and emotional support — all packed into a portable ESP32-based device.
+**Wally** is a warm, reliable voice assistant in the shape of a penguin. It is designed to help users with reminders, productivity, daily conversations, and emotional support — all packed into a portable ESP32-based device.
 
 > [!NOTE]
-> Wally is currently a prototype and not yet available for purchase, public use or distribution. Check out its demo below and stay tuned for updates!
+> Wally is currently a prototype and not yet available for purchase, public use or distribution (but will soon be!). Check out its demo below and stay tuned for updates!
 
 ---
 
@@ -28,26 +28,6 @@
 
 ---
 
-## Network Configuration
-
-1. Power on the Wally device by flipping the switch on its back
-2. Remove its head from the body, and inside, on the back of the board, click on the round button right next to the white battery stand. Press it, along with the button labeled "B" together. It will now report "Entering network configuration mode". 
-3. Choose the network called Xiaozhi on your phone/laptop, and a web page shall pop up. If not, go manually to the address shown on its screen.
-4. Inside the web page, enter your network's details (name and password). You can also choose to remember the network in future use.
-5. Once done, read the below instructions to start using it.
-___
-
-## Getting Started
-
-> [!IMPORTANT]
-> Only follow the below instructions once network configuration has been completed.
-
-1. Say "Hi, Wally" to wake Wally up.
-2. Start chatting with Wally.
-3. Say any form of goodbye (e.g. "Stop talking" or "Go to sleep" or simply "bye") to shut Wally down.
-
----
-
 ## Technical Overview
 
 * **Powered by**: [XiaoZhi](https://github.com/78/xiaozhi-esp32) cloud + ESP32 firmware
@@ -57,6 +37,27 @@ ___
 * **Wake Word Engine**: ESP-SR based offline recognition
 * **Voice Synthesis**: TTS via Volcano Engine or CosyVoice
 * **Outer Shell**: Designed in Tynkercad and 3D printed via [Bambu Lab P1](https://bambulab.com/en-us/p1)
+
+___
+
+## Network Configuration
+
+1. Power on the Wally device by flipping the switch on its back
+2. Remove its head from the body, and inside, on the back of the board, click on the round button right next to the white battery stand. Press it, along with the button labeled "B" together. It will now report "Entering network configuration mode". 
+3. Choose the network called Xiaozhi on your phone/laptop, and a web page shall pop up. If not, go manually to the address shown on its screen.
+4. Inside the web page, enter your network's details (name and password). You can also choose to remember the network in future use.
+5. Once done, read the below instructions to start using it.
+
+---
+
+## Getting Started
+
+> [!IMPORTANT]
+> Only follow the below instructions once network configuration has been completed.
+
+1. Say "Hi, Wally" to wake Wally up.
+2. Start chatting with Wally.
+3. Say any form of goodbye you like to shut Wally down.
 
 ___
 
