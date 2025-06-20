@@ -9,7 +9,7 @@
 **Wally** is a warm, reliable voice assistant in the shape of a penguin. It is designed to help users with reminders, productivity, daily conversations, and emotional support — all packed into a portable ESP32-based device.
 
 > [!NOTE]
-> Wally is currently a prototype and not yet available for purchase, public use or distribution (but will soon be!). Check out its demo below and stay tuned for updates!
+> Wally is currently a prototype and not yet available for purchase, public use or distribution (but will soon be!). Stay tuned for updates!
 
 ---
 
