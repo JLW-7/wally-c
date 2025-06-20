@@ -31,8 +31,8 @@
 ## Technical Overview
 
 * **Powered by**: [XiaoZhi](https://github.com/78/xiaozhi-esp32) cloud + ESP32 firmware
-* **Board compatibility**: DFRobot (UNIHiker), others require significant software/hardware adaptation
-* **Backend**: Uses XiaoZhi’s LLM response system
+* **Board compatibility**: [DFRobot (UNIHiker)](https://www.dfrobot.com/)
+* **Backend**: Uses XiaoZhi’s LLM (Qwen, Deepseek, etc) response system
 * **Frontend**: Device firmware via XiaoZhi flashing tools and preset images
 * **Wake Word Engine**: ESP-SR based offline recognition
 * **Voice Synthesis**: TTS via Volcano Engine or CosyVoice
@@ -40,25 +40,19 @@
 
 ___
 
-## 📶 Network Configuration (Wally Setup)
+## Network Configuration (Setup)
 
 1. **Turn on Wally**  
    Flip the switch on Wally’s back to power it on.
 
 2. **Enter Configuration Mode**  
-   Remove Wally’s head to access the internal board.  
-   On the back of the board, locate the **round button next to the white battery stand**.  
-   Press **that button and the one labeled “B” at the same time**.  
-   Wally will say: *“Entering network configuration mode.”*
+   Remove Wally’s head to access the internal board. On the back of the board, locate the round button next to the white battery stand. Press that button and the one labeled “B” at the same time. Wally will report: *“Entering network configuration mode.”*
 
 3. **Connect to Wally’s Setup Network**  
-   On your phone or laptop, connect to the Wi-Fi network named **`Xiaozhi`**.  
-   A configuration webpage should automatically open.  
-   If it doesn’t, open your browser and go to the address displayed on Wally’s screen.
+   On your phone or laptop, connect to the Wi-Fi network named **`Xiaozhi`**. A configuration webpage should automatically open. If it doesn’t, open your browser and go to the address displayed on Wally’s screen.
 
 4. **Enter Your Wi-Fi Details**  
-   On the setup page, input your Wi-Fi network’s **name (SSID)** and **password**.  
-   (You can choose to have Wally remember this network for future use.)
+   On the setup page, input your Wi-Fi network’s **name (SSID)** and **password**. (You can choose to remember this network for future use.)
 
 5. **You're All Set!**  
    Once configuration is complete, follow the next set of instructions to start using Wally.
