@@ -40,13 +40,28 @@
 
 ___
 
-## Network Configuration
+## 📶 Network Configuration (Wally Setup)
 
-1. Power on the Wally device by flipping the switch on its back
-2. Remove its head from the body, and inside, on the back of the board, click on the round button right next to the white battery stand. Press it, along with the button labeled "B" together. It will now report "Entering network configuration mode". 
-3. Choose the network called Xiaozhi on your phone/laptop, and a web page shall pop up. If not, go manually to the address shown on its screen.
-4. Inside the web page, enter your network's details (name and password). You can also choose to remember the network in future use.
-5. Once done, read the below instructions to start using it.
+1. **Turn on Wally**  
+   Flip the switch on Wally’s back to power it on.
+
+2. **Enter Configuration Mode**  
+   Remove Wally’s head to access the internal board.  
+   On the back of the board, locate the **round button next to the white battery stand**.  
+   Press **that button and the one labeled “B” at the same time**.  
+   Wally will say: *“Entering network configuration mode.”*
+
+3. **Connect to Wally’s Setup Network**  
+   On your phone or laptop, connect to the Wi-Fi network named **`Xiaozhi`**.  
+   A configuration webpage should automatically open.  
+   If it doesn’t, open your browser and go to the address displayed on Wally’s screen.
+
+4. **Enter Your Wi-Fi Details**  
+   On the setup page, input your Wi-Fi network’s **name (SSID)** and **password**.  
+   (You can choose to have Wally remember this network for future use.)
+
+5. **You're All Set!**  
+   Once configuration is complete, follow the next set of instructions to start using Wally.
 
 ---
 
