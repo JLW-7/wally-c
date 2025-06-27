@@ -9,6 +9,6 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
-    "react-scripts": "^5.0.1"
+    "react-scripts": "^0.0.0"
   }
 }
