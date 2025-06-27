@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import Sidebar from "./Sidebar";
+import "./App.css";
 
 function App() {
+  const [page, setPage] = useState("status");
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ display: "flex", height: "100vh" }}>
+      <Sidebar setPage={setPage} page={page} />
+      <main style={{ flex: 1, padding: 24 }}>
+        {page === "status" && <h2>Device Status Page (to be implemented)</h2>}
+        {page === "logs" && <h2>Logs Page (to be implemented)</h2>}
+        {page === "config" && <h2>Configuration Page (to be implemented)</h2>}
+      </main>
     </div>
   );
 }
