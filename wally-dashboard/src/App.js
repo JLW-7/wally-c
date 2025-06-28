@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import Sidebar from "./Sidebar";
-import "./App.css";
+import DeviceStatus from "./components/DeviceStatus";
+import DeviceLogs from "./components/DeviceLogs";
+import DeviceConfig from "./components/DeviceConfig";
+import "./index.css";
 
 function App() {
   const [page, setPage] = useState("status");
@@ -8,10 +11,10 @@ function App() {
   return (
     <div style={{ display: "flex", height: "100vh" }}>
       <Sidebar setPage={setPage} page={page} />
-      <main style={{ flex: 1, padding: 24 }}>
-        {page === "status" && <h2>Device Status Page (to be implemented)</h2>}
-        {page === "logs" && <h2>Logs Page (to be implemented)</h2>}
-        {page === "config" && <h2>Configuration Page (to be implemented)</h2>}
+      <main className="dashboard-container" style={{ flex: 1, padding: 24 }}>
+        {page === "status" && <DeviceStatus />}
+        {page === "logs" && <DeviceLogs />}
+        {page === "config" && <DeviceConfig />}
       </main>
     </div>
   );

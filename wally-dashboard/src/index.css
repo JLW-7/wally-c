@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.dashboard-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.config-form div {
+  margin-bottom: 15px;
+}
+
+.log-entry {
+  font-family: monospace;
+  margin-bottom: 8px;
+}
