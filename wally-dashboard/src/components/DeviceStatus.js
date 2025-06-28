@@ -1,13 +1,12 @@
 import React, { useEffect, useState } from "react";
+import { mockStatus } from '../api/mock';
 
 export default function DeviceStatus() {
   const [status, setStatus] = useState(null);
 
   useEffect(() => {
-    fetch("http://localhost:3000/api/status")
-      .then(res => res.json())
-      .then(setStatus)
-      .catch(() => setStatus(null));
+    setStatus(mockStatus); // For mock
+    // Later: fetch('/api/status').then(...)
   }, []);
 
   if (!status) return <div>Loading device status...</div>;
