@@ -6,12 +6,10 @@ export default function DeviceStatus() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    try {
-      setStatus(mockStatus); // For mock
-      // Later: fetch('/api/status').then(res => res.json()).then(setStatus).catch(setError);
-    } catch (err) {
-      setError("Failed to load device status.");
-    }
+    fetch("http://localhost:4000/api/status")
+      .then(res => res.json())
+      .then(setStatus)
+      .catch(() => setError("Failed to load device status."));
   }, []);
 
   if (error) return <div style={{ color: "red" }}>{error}</div>;
