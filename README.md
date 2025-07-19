@@ -24,7 +24,7 @@
 
 ## Demo
 
-> Coming soon...
+![Wally's Demo Video](wally-vid.mp4)
 
 ---
 
