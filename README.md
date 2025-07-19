@@ -24,7 +24,7 @@
 
 ## Demo
 
-![Wally's Demo Video](wally-vid.mp4)
+[Watch Youtube Video](https://youtu.be/0H2t0p9YrDw)
 
 ---
 
