@@ -24,7 +24,7 @@
 
 ## Demo
 
-> Coming soon...
+[Watch Youtube Video](https://youtu.be/0H2t0p9YrDw)
 
 ---
 
@@ -89,11 +89,5 @@ Let's make Wally better! Feel free to open issues and pull requests.
 This project is licensed under the [MIT License](LICENSE)
 
 ---
-
-## Star History
-
-[![Wally's Star History Chart](https://api.star-history.com/svg?repos=JLW-7/wally-c&type=Date)](https://www.star-history.com/#JLW-7/wally-c&Date)
-
-___
 
 ### If you find this project cool or helpful, please show some love by giving it a star!
