@@ -1,8 +1,13 @@
+<div align="center">
+
 # Wally
 
-> A bilingual voice-powered AI companion, built using XiaoZhi’s intelligent assistant platform.
+*A bilingual voice-powered AI companion, built using XiaoZhi’s intelligent assistant platform.*
 
 [English](README.md) | [中文](README_cn.md) | [日本語](README_ja.md)
+
+</div>
+
 
 ## Overview
 
@@ -14,7 +19,7 @@
 
 ## Core Features
 
-* **Voice Wake-Up**: Wake word: "Hi, Wally" triggers Wally to start listening and responding
+* **Voice Wake-Up**: Wake word: "Hi, Wally" or "Hi Wall-E" triggers Wally to start listening and responding
 
 * **Bilingual Voice Chat**: Fluent interaction in both English and Mandarin
 
