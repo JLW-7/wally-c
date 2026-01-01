@@ -30,11 +30,16 @@
 
 ## Demo
 
-### Images
+### 3D Design
+<img src="demo/wally-3d-design.png" alt="Wally 3D Design in Tinkercad" width="400" height="400">
 
+### Internal Structure (Front + Back View)
+<img src="demo/wall-internal-design-front.png" alt="Wally Internal Design Front" width="400" height="400"> <img src="demo/wally-internal-design-back.png" alt="Wally Internal Design Back" width="400" height="400">
 
-### Demo Video
-[Watch on Youtube](https://youtu.be/0H2t0p9YrDw) or download it [here](wally-vid.mp4).
+### Wally In Use
+<img src="demo/wally-in-use.png" alt="Wally Conversing with User in English" width="400"> <img src="demo/wally-in-use-chn.jpg" alt="Wally Conversing with User in Chinse" width="350">
+
+[Demo Video on Youtube](https://youtu.be/0H2t0p9YrDw) or download it [here](demo/wally-vid.mp4).
 
 
 ## Technical Overview
