@@ -30,7 +30,11 @@
 
 ## Demo
 
-[Watch Youtube Video](https://youtu.be/0H2t0p9YrDw)
+### Images
+
+
+### Demo Video
+[Watch on Youtube](https://youtu.be/0H2t0p9YrDw) or download it [here](wally-vid.mp4).
 
 
 ## Technical Overview
@@ -47,25 +51,20 @@
 
 * **Voice Synthesis**: TTS via Volcano Engine or CosyVoice
 
-* **Outer Shell**: Designed in Tynkercad and 3D printed via [Bambu Lab P1](https://bambulab.com/en-us/p1)
+* **Outer Shell**: Designed in [Tinkercad](https://www.tinkercad.com/) and 3D printed via [Bambu Lab P1](https://bambulab.com/en-us/p1)
 
 
 ## Network Configuration (Setup)
 
-1. **Turn on Wally**  
-   Flip the switch on Wally’s back to power it on.
+1. **Turn on Wally**: Flip the switch on Wally’s back to power it on.
 
-2. **Enter Configuration Mode**  
-   Remove Wally’s head to access the internal board. On the back of the board, locate the round button next to the white battery stand. Press that button and the one labeled “B” at the same time. Wally will report: *“Entering network configuration mode.”*
+2. **Enter Configuration Mode**: Remove Wally’s head to access the internal board. On the back of the board, locate the round button next to the white battery stand. Press that button and the one labeled “B” at the same time. Wally will report: *“Entering network configuration mode.”*
 
-3. **Connect to Wally’s Setup Network**  
-   On your phone or laptop, connect to the Wi-Fi network named **`Xiaozhi`**. A configuration webpage should automatically open. If it doesn’t, open your browser and go to the address displayed on Wally’s screen.
+3. **Connect to Wally’s Setup Network**: On your phone or laptop, connect to the Wi-Fi network named **`Xiaozhi`**. A configuration webpage should automatically open. If it doesn’t, open your browser and go to the address displayed on Wally’s screen.
 
-4. **Enter Your Wi-Fi Details**  
-   On the setup page, input your Wi-Fi network’s **name (SSID)** and **password**. (You can choose to remember this network for future use.)
+4. **Enter Your Wi-Fi Details**: On the setup page, input your Wi-Fi network’s **name (SSID)** and **password**. (You can choose to remember this network for future use.)
 
-5. **You're All Set!**  
-   Once configuration is complete, follow the next set of instructions to start using Wally.
+5. **You're All Set!**: Once configuration is complete, follow the next set of instructions to start using Wally.
    
 
 ## Getting Started
