@@ -97,7 +97,9 @@ Let's make Wally better! Feel free to open issues and pull requests.
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE)
+This project is licensed under the [MIT License](LICENSE).
+
+---
 
 
-### If you find this project cool or helpful, please show some love by giving it a star!
+### Made with 💙 by July. If you find this project cool or helpful, please give it a star!
