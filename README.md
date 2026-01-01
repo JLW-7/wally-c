@@ -39,7 +39,8 @@
 ### Wally In Use
 <img src="demo/wally-in-use.png" alt="Wally Conversing with User in English" width="400"> <img src="demo/wally-in-use-chn.jpg" alt="Wally Conversing with User in Chinse" width="350">
 
-[Demo Video on Youtube](https://youtu.be/0H2t0p9YrDw) or download it [here](demo/wally-vid.mp4).
+### Demo Video
+[Watch on Youtube](https://youtu.be/0H2t0p9YrDw) or download it (view raw) [here](demo/wally-vid.mp4).
 
 
 ## Technical Overview
