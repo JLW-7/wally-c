@@ -11,7 +11,7 @@
 
 ## Overview
 
-**Wally** is a warm, reliable voice assistant in the shape of a penguin. It is designed to help users with **reminders**, but can also assist in productivity, daily conversations, and emotional support, all in one portable ESP32-based device.
+**Wally** is a warm, reliable voice assistant in the shape of a penguin. It is designed to help users with **reminders**, but can also assist in productivity, daily conversations, and emotional support.
 
 > [!NOTE]
 > Wally is currently a prototype and not yet available for purchase, public use or distribution. Stay tuned for updates!
@@ -33,13 +33,13 @@
 ### 3D Design
 <img src="demo/wally-3d-design.png" alt="Wally 3D Design in Tinkercad" width="400" height="400">
 
-### Internal Structure (Front + Back View)
+### Internal Structure
 <img src="demo/wall-internal-design-front.png" alt="Wally Internal Design Front" width="400" height="400"> <img src="demo/wally-internal-design-back.png" alt="Wally Internal Design Back" width="400" height="400">
 
-### Wally In Use
+### Actual Usage Scenarios
 <img src="demo/wally-in-use.png" alt="Wally Conversing with User in English" width="400"> <img src="demo/wally-in-use-chn.jpg" alt="Wally Conversing with User in Chinse" width="350">
 
-### Demo Video
+### Demonstration Video
 [Watch on Youtube](https://youtu.be/0H2t0p9YrDw) or download it (view raw) [here](demo/wally-vid.mp4).
 
 
@@ -47,7 +47,7 @@
 
 * **Powered by**: [XiaoZhi](https://github.com/78/xiaozhi-esp32) cloud + ESP32 firmware
 
-* **Board compatibility**: [DFRobot (UNIHiker)](https://www.dfrobot.com/)
+* **Board + Framework**: [ESP32](https://www.espressif.com.cn/en/products/socs/esp32) and [ESP-IDF](https://github.com/espressif/esp-idf)
 
 * **Backend**: Uses XiaoZhi’s LLM (Qwen, Deepseek, etc) response system
 
