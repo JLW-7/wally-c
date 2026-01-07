@@ -1,6 +1,8 @@
 <div align="center">
 
-# Wally
+<img width="150" height="150" alt="image" src="https://github.com/user-attachments/assets/2a277aa7-7dd7-4a9b-9152-265a8987ebd1" />
+
+# Wally (C++ Version)
 
 *A bilingual voice-powered AI companion, built using XiaoZhi’s intelligent assistant platform.*
 
