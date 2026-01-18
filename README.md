@@ -25,10 +25,22 @@
 
 ## The Solution
 
-Wally is designed to have all the normal functionalities of an AI assistant, while also being intentionally interesting in appearance. This is what separates it from other reminder assistants out there. I find that a cute, fun-to-use device creates a better impression on users, meaning you’re more likely to remember to ask it for help and actually listen to its reminders.
+Wally is designed to have all the normal functionalities of an AI assistant, while also being **intentionally interesting in appearance**. This is what separates it from other reminder assistants out there. I find that a cute, fun-to-use device creates a better impression on users, meaning you’re more likely to remember to ask it for help and actually listen to its reminders.
 
 After four months, I completed my first prototype and gave a few to friends at school to test out. It turned out that all of them absolutely loved using it and urged me to make it public. So here it is.
 
+
+## Common Use Cases
+
+These are some ways my family and friends used Wally:
+
+| Scenario | Usage |
+|----------|-----|
+| **School** | Quick essentials check before school day |
+| **Practice** | Confirm practice gear before/after training |
+| **Travel** | Final packing check during trips |
+
+  
 
 ## Core Features
 
