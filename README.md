@@ -112,7 +112,7 @@ These are some ways my family and friends used Wally:
 3. Say any form of goodbye you like to shut Wally down.
 
 > [!TIP]
-> For first time users, it may be helpful to list details about your belongings you want Wally to remember, for a more personalized experience. The information will be stored in Wally's memory and can be cleared any time simply by asking it.
+> For a more personalized experience, it may be helpful to list details about your belongings you want Wally to remember. The information will be stored in Wally's memory and can be cleared any time simply by asking it to.
 
 
 ## Acknowledgements
