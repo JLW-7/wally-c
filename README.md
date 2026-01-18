@@ -13,21 +13,36 @@
 
 ## Overview
 
-**Wally** is a warm, reliable voice assistant in the shape of a penguin. It is designed to help users with **reminders**, but can also assist in productivity, daily conversations, and emotional support.
+**Wally** is a fun, reliable voice assistant in the shape of a penguin. It is designed to mainly help users with **reminders**, but can also assist in anything from productivity, to daily conversations, to emotional support.
 
 > [!NOTE]
-> Wally is currently a prototype and not yet available for purchase, public use or distribution. Stay tuned for updates!
+> This will soon be available for purchase [here](https://github.com/JLW-7/wally-website). Stay tuned for updates.
+
+
+## The Problem
+
+**I just keep forgetting stuff.** A lot of people around me have the same issue as well, I’ve noticed. It’s annoying to the point where it drives people crazy. As a competitive swimmer, after the *nth* time of forgetting to bring my electrolyte drink or swim gear to practice, I decided to build a tool to remind myself.
+
+## The Solution
+
+Wally is designed to have all the normal functionalities of an AI assistant, while also being intentionally interesting in appearance. This is what separates it from other reminder assistants out there. I find that a cute, fun-to-use device creates a better impression on users, meaning you’re more likely to remember to ask it for help and actually listen to its reminders.
+
+After four months, I completed my first prototype and gave a few to friends at school to test out. It turned out that all of them absolutely loved using it and urged me to make it public. So here it is.
 
 
 ## Core Features
 
 * **Voice Wake-Up**: Wake word: "Hi, Wally" or "Hi Wall-E" triggers Wally to start listening and responding
 
-* **Bilingual Voice Chat**: Fluent interaction in both English and Mandarin
+* **Bilingual Voice Chat**: Fluent interaction in both English and Mandarin (although it's Mandarin accent might sound strange at the moment)
 
-* **Real-Time Streaming Responses**: Instant replies from XiaoZhi-powered LLM backend (Qwen, Deepseek etc)
+* **Real-Time Streaming Responses**: Instant replies from XiaoZhi-powered [Qwen](https://qwen.ai/home) LLM backend
 
-* **OLED/Display Feedback**: On-screen reply visualization with various emojis for interaction
+* **OLED/Display Feedback**: On-screen visualization of detected user speech said and system replies.
+
+* **Small and Portable**: Simple, miniature form that is easy to place or carry around.
+
+* **Adorable and Fun To Use**: Intentionally cute penguin design, child-like voice and various on-screen emojis for interaction.
 
 
 ## Demo
@@ -42,7 +57,7 @@
 <img src="demo/wally-in-use.png" alt="Wally Conversing with User in English" width="400"> <img src="demo/wally-in-use-chn.jpg" alt="Wally Conversing with User in Chinse" width="350">
 
 ### Demonstration Video
-[Watch on Youtube](https://youtu.be/0H2t0p9YrDw) or download it (view raw) [here](demo/wally-vid.mp4).
+[Watch on Youtube](https://youtu.be/0H2t0p9YrDw) or download it [here](demo/wally-vid.mp4).
 
 
 ## Technical Overview
@@ -81,8 +96,11 @@
 > Only follow the below instructions once network configuration has been completed.
 
 1. Say "Hi, Wally" to wake Wally up.
-2. Start chatting with Wally.
+2. Start chatting with Wally. 
 3. Say any form of goodbye you like to shut Wally down.
+
+> [!TIP]
+> For first time users, it may be helpful to list details about your belongings you want Wally to remember, for a more personalized experience. The information will be stored in Wally's memory and can be cleared any time simply by asking it.
 
 
 ## Acknowledgements
@@ -94,7 +112,7 @@ Special thanks to:
 
 ## Contributions
 
-Let's make Wally better! Feel free to open issues and pull requests.
+Contributions are welcome. Feel free to open issues and pull requests.
 
 
 ## License
@@ -104,4 +122,4 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 
 
-### Made with 💙 by July. If you find this project cool or helpful, please give it a star!
+### Made with 💙 by July. If you found this project cool or helpful, please give it a star!
