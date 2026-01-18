@@ -4,9 +4,14 @@
 
 # Wally (C++ Version)
 
+![Language](https://img.shields.io/badge/Language-C%2B%2B-blue?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+![Users](https://img.shields.io/badge/Users-14-orange?style=for-the-badge)
+![Stars](https://img.shields.io/github/stars/JLW-7/Wally?style=for-the-badge&label=Stars&color=yellow)
+
 *A bilingual voice-powered AI companion, built using XiaoZhi’s intelligent assistant platform.*
 
-[English](README.md) | [中文](README_cn.md) | [日本語](README_ja.md)
+[English](README.md) | [中文](README_cn.md) | [日本語](README_ja.md) | [Русский](README_ru.md) | [Français](README_fr.md) | [Español](README_es.md) | [Deutsch](README_de.md) | [हिन्दी](README_hi.md)
 
 </div>
 
