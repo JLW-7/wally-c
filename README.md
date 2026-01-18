@@ -21,7 +21,7 @@
 **Wally** is a fun, reliable voice assistant in the shape of a penguin. It is designed to mainly help users with **reminders**, but can also assist in anything from productivity, to daily conversations, to emotional support.
 
 > [!NOTE]
-> This will soon be available for purchase [here](https://github.com/JLW-7/wally-website). Stay tuned for updates.
+> This will soon be available for purchase [here](https://github.com/JLW-7/wally-website). Give it a star to stay tuned for updates!
 
 
 ## The Problem
