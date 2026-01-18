@@ -6,7 +6,7 @@
 
 ![Language](https://img.shields.io/badge/Language-C%2B%2B-blue?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
-![Users](https://img.shields.io/badge/Users-14-orange?style=for-the-badge)
+![Users](https://img.shields.io/badge/Special_Users-14-orange?style=for-the-badge)
 ![Stars](https://img.shields.io/github/stars/JLW-7/Wally?style=for-the-badge&label=Stars&color=yellow)
 
 *A bilingual voice-powered AI companion, built using XiaoZhi’s intelligent assistant platform.*
