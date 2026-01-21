@@ -55,7 +55,7 @@ These are some ways my family and friends used Wally:
 
 * **Real-Time Streaming Responses**: Instant replies from XiaoZhi-powered [Qwen](https://qwen.ai/home) LLM backend
 
-* **OLED/Display Feedback**: On-screen visualization of detected user speech said and system replies.
+* **OLED/Display Feedback**: On-screen visualization of detected user speech and system replies.
 
 * **Small and Portable**: Simple, miniature form that is easy to place or carry around.
 
