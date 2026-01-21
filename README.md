@@ -59,7 +59,7 @@ These are some ways my family and friends used Wally:
 
 * **Small and Portable**: Simple, miniature form that is easy to place or carry around.
 
-* **Adorable and Fun To Use**: Intentionally cute penguin design, child-like voice and various on-screen emojis for interaction.
+* **Adorable and Fun To Use**: Intentionally cute penguin design, child-like voice, and on-screen interactive emojis.
 
 
 ## Demo
