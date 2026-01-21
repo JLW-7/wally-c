@@ -6,7 +6,7 @@
 
 ![Language](https://img.shields.io/badge/Language-C%2B%2B-blue?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
-![Users](https://img.shields.io/badge/Special_Users-14-orange?style=for-the-badge)
+![Version Number](https://img.shields.io/badge/version-2.0.1-orange?style=for-the-badge)
 ![Stars](https://img.shields.io/github/stars/JLW-7/Wally?style=for-the-badge&label=Stars&color=yellow)
 
 *A bilingual voice-powered AI companion, built using XiaoZhi’s intelligent assistant platform.*
@@ -92,6 +92,41 @@ These are some ways my family and friends used Wally:
 * **Voice Synthesis**: TTS via Volcano Engine or CosyVoice
 
 * **Outer Shell**: Designed in [Tinkercad](https://www.tinkercad.com/) and 3D printed via [Bambu Lab P1](https://bambulab.com/en-us/p1)
+
+
+## Version History
+
+### v2.0.2 — Small Bug Fixes
+
+### v2.0.0 — Wally
+- Rebranded from **Penguin Pi** to **Wally**.
+  
+- Updated wake words to **“Hi Wally”** or **“Hi Wall-E”**.
+  
+- Complete redesign with a new smaller and more portable **penguin shell**
+  
+- Switched to new **ESP32 board** with improved hardware modules via [**XiaoZhi**](https://xiaozhi.me/).
+  
+- Added **LLM connectivity** for real conversational AI.
+  
+- Migrated core codebase from Python to **C++**.
+
+### v1.0.1 — Small Bug Fixes
+
+### v1.0.0 — First Public Release
+
+### v0.1.0 — [Penguin Pi](https://github.com/JLW-7/Penguin-Pi) (Original Prototype)
+- Original project name: **Penguin Pi**
+  
+- Built using an **Arduino board** and programmed entirely in **Python** via [Mind+](https://mindplus.cc/en/).
+  
+- **Built-in responses** for predefined scenarios.
+  
+- Used an infrared **distance sensor** to detect presence and wake up.
+  
+- Original wake word: **“Xiao Pai, Xiao Pai”**.
+  
+- Early hardware limitations (microphone and speaker may be unstable).
 
 
 ## Network Configuration (Setup)
